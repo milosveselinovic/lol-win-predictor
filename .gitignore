@@ -1,0 +1,12 @@
+# Secrets: the API key never goes to GitHub
+.env
+
+# Virtual environment (everyone recreates it from requirements.txt)
+.venv/
+
+# Data is large and can be re-downloaded with the collection script
+data/
+
+# Python and Jupyter cache files
+__pycache__/
+.ipynb_checkpoints/
