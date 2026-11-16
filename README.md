@@ -16,3 +16,10 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 Copy `.env.example` to `.env` and add your Riot API key.
+
+## Data
+Match timelines of EUNE Challenger and Grandmaster players (Ranked Solo/Duo), collected with:
+```bash
+python src/collect.py 1000
+```
+Raw timelines are saved to `data/raw/` (not committed).
